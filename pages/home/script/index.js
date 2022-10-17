@@ -25,7 +25,7 @@ function createCardMinor(user) {
         const recentToJson = JSON.stringify(recentAdded)
         localStorage.setItem("recentAdded", recentToJson)
 
-        window.location = "../profile/index.html"
+        window.location = "../../index.html"
     })
 
     a.innerHTML = `

@@ -62,7 +62,7 @@ function createBtnsHeader(user) {
     emailLink.appendChild(btnEmail)
 
     let homePageLink = document.createElement("a")
-    homePageLink.href = "../../pages/home/index.html"
+    homePageLink.href = "../../index.html"
 
     homePageLink.innerHTML = `
         <button class="btn-header">Trocar de usuário</button>
